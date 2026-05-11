@@ -1,0 +1,2 @@
+selected_by,feature_set,model,uses_time_decay,n_features,development_rows_2021_2024,test_rows_2025,test_mae,test_rmse,test_r2
+lowest_2024_validation_mae_from_controlled_valid_models,lineup_aware_starter_flag_roll10,catboost,False,11,103099,26651,7.671208222641192,9.790934960583309,0.5440104786046951

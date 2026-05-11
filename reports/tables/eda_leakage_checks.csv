@@ -1,0 +1,5 @@
+check,value,passed,notes
+duplicate_game_person_rows,0,True,modeling grain should be one row per player-game
+direct_same_game_leakage_columns_present,,True,raw same-game stats should not be direct model columns
+first_player_game_fp_roll_5_null_rate,1.0,True,first row per player should not have previous-game rolling fantasy points
+current_starter_feature_policy,True,True,current_is_starter is lineup-aware; early projection models should exclude it

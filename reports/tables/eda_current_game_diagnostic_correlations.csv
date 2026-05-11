@@ -1,0 +1,11 @@
+feature,correlation,abs_correlation,missing_pct,feature_policy
+actual_points,0.8860455100107161,0.8860455100107161,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_numMinutes,0.8043793478429555,0.8043793478429555,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_reboundsTotal,0.672512506635671,0.672512506635671,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_assists,0.6520432802494377,0.6520432802494377,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_usagePercentage,0.473023148142494,0.473023148142494,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_steals,0.4721519308566834,0.4721519308566834,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_turnovers,0.42653216041612363,0.42653216041612363,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_trueShootingPercentage,0.37704929046113705,0.37704929046113705,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_blocks,0.3736421706867316,0.3736421706867316,0.0,EDA only; same-game current value is not a pre-game model feature
+actual_playerImpactEstimate,0.2979575687499906,0.2979575687499906,0.0,EDA only; same-game current value is not a pre-game model feature

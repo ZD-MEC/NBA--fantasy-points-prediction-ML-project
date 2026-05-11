@@ -1,0 +1,101 @@
+game_date,season_start,gameId,personId,player_name,playerteamName,opponentteamName,starter_label,primary_position,fantasy_points,isolation_anomaly_score,isolation_is_outlier,isolation_score_decile,anomaly_variant
+2025-04-04 19:00:00,2024,22401119,1628396,Tony Bradley,Pacers,Jazz,Bench,Center,2.0,0.05936256490377845,1.0,10.0,pre_lineup_anomaly
+2024-11-20 20:00:00,2024,22400255,203954,Joel Embiid,76ers,Grizzlies,Starter,Center,54.2,0.056121205844480215,1.0,10.0,pre_lineup_anomaly
+2024-11-13 22:00:00,2024,22400225,1630643,Jay Huff,Grizzlies,Lakers,Starter,Center,15.6,0.053987266600563855,1.0,10.0,pre_lineup_anomaly
+2024-12-29 19:00:00,2024,22400440,1630658,Colin Castleton,Grizzlies,Thunder,Bench,Center,4.2,0.05180605235918634,1.0,10.0,pre_lineup_anomaly
+2025-04-13 15:30:00,2024,22401195,203497,Rudy Gobert,Timberwolves,Jazz,Starter,Center,55.6,0.05073804879181165,1.0,10.0,pre_lineup_anomaly
+2024-12-08 18:00:00,2024,22400350,203999,Nikola Jokic,Nuggets,Hawks,Starter,Center,82.8,0.04854091563728369,1.0,10.0,pre_lineup_anomaly
+2025-02-20 21:00:00,2024,22400794,203999,Nikola Jokic,Nuggets,Hornets,Starter,Center,66.9,0.04831978286398164,1.0,10.0,pre_lineup_anomaly
+2025-04-09 21:00:00,2024,22401162,1631101,Shaedon Sharpe,Trail Blazers,Jazz,Starter,Guard,53.9,0.04813733669461284,1.0,10.0,pre_lineup_anomaly
+2024-11-15 19:00:00,2024,22400010,203954,Joel Embiid,76ers,Magic,Starter,Center,32.6,0.048035031964981156,1.0,10.0,pre_lineup_anomaly
+2025-01-25 19:00:00,2024,22400638,1630595,Cade Cunningham,Pistons,Magic,Starter,Guard,58.5,0.04709894795341274,1.0,10.0,pre_lineup_anomaly
+2025-03-31 19:00:00,2024,22401091,1629234,Drew Eubanks,Clippers,Magic,Bench,Center,-1.0,0.04708707373513776,1.0,10.0,pre_lineup_anomaly
+2025-02-03 21:00:00,2024,22400706,203999,Nikola Jokic,Nuggets,Pelicans,Starter,Center,66.8,0.04628555026268333,1.0,10.0,pre_lineup_anomaly
+2025-03-15 21:00:00,2024,22400975,203999,Nikola Jokic,Nuggets,Wizards,Starter,Center,75.1,0.04552030834908938,1.0,10.0,pre_lineup_anomaly
+2025-02-10 22:30:00,2024,22400768,1629637,Jaxson Hayes,Lakers,Jazz,Starter,Center,29.4,0.0442900929706489,1.0,10.0,pre_lineup_anomaly
+2024-11-23 20:00:00,2024,22400267,1629111,Jock Landale,Rockets,Trail Blazers,Bench,Center,11.7,0.043851845347187335,1.0,10.0,pre_lineup_anomaly
+2025-04-13 15:30:00,2024,22401195,1641740,Jaylen Clark,Timberwolves,Jazz,Bench,Guard,0.0,0.04348603689739139,1.0,10.0,pre_lineup_anomaly
+2025-01-25 15:00:00,2024,22400634,203999,Nikola Jokic,Nuggets,Timberwolves,Starter,Center,33.1,0.043076820311376274,1.0,10.0,pre_lineup_anomaly
+2024-11-06 21:00:00,2024,22400177,203999,Nikola Jokic,Nuggets,Thunder,Starter,Center,78.0,0.04258263801299189,1.0,10.0,pre_lineup_anomaly
+2025-03-31 19:00:00,2024,22401089,203994,Jusuf Nurkic,Hornets,Jazz,Bench,Center,8.9,0.04245180400154558,1.0,10.0,pre_lineup_anomaly
+2025-02-12 21:00:00,2024,22400780,203999,Nikola Jokic,Nuggets,Trail Blazers,Starter,Center,61.0,0.042256688455429736,1.0,10.0,pre_lineup_anomaly
+2025-02-20 21:00:00,2024,22400794,1630192,Zeke Nnaji,Nuggets,Hornets,Bench,Center,10.6,0.04217717434658186,1.0,10.0,pre_lineup_anomaly
+2024-11-22 20:00:00,2024,22400031,203500,Steven Adams,Rockets,Trail Blazers,Bench,Center,3.7,0.04210631905052231,1.0,10.0,pre_lineup_anomaly
+2025-03-23 15:30:00,2024,22401030,1631117,Walker Kessler,Jazz,Cavaliers,Starter,Center,33.6,0.04172609195457733,1.0,10.0,pre_lineup_anomaly
+2024-11-22 20:00:00,2024,22400031,1629098,Jack McVeigh,Rockets,Trail Blazers,Bench,Forward,6.9,0.041718136962919705,1.0,10.0,pre_lineup_anomaly
+2024-12-23 22:30:00,2024,22400404,203076,Anthony Davis,Lakers,Pistons,Starter,Center,49.0,0.041592125368848265,1.0,10.0,pre_lineup_anomaly
+2025-03-05 21:30:00,2024,22400895,1628983,Shai Gilgeous-Alexander,Thunder,Grizzlies,Starter,Guard,57.4,0.041312708811876986,1.0,10.0,pre_lineup_anomaly
+2024-12-13 21:00:00,2024,22401213,203999,Nikola Jokic,Nuggets,Clippers,Starter,Center,28.4,0.041221747667686715,1.0,10.0,pre_lineup_anomaly
+2024-11-10 21:00:00,2024,22400210,1630643,Jay Huff,Grizzlies,Trail Blazers,Bench,Center,31.4,0.04071699005324503,1.0,10.0,pre_lineup_anomaly
+2025-04-06 18:00:00,2024,22401136,1629027,Trae Young,Hawks,Jazz,Starter,Guard,54.5,0.04070981996201872,1.0,10.0,pre_lineup_anomaly
+2025-02-08 20:00:00,2024,22400747,203497,Rudy Gobert,Timberwolves,Trail Blazers,Starter,Center,31.700000000000003,0.04066774158742725,1.0,10.0,pre_lineup_anomaly
+2025-04-02 22:30:00,2024,22401111,1629234,Drew Eubanks,Clippers,Pelicans,Bench,Center,2.0,0.040493069766879275,1.0,10.0,pre_lineup_anomaly
+2024-12-29 19:00:00,2024,22400440,1628991,Jaren Jackson Jr.,Grizzlies,Thunder,Starter,Center,28.0,0.039791454859776976,1.0,10.0,pre_lineup_anomaly
+2025-02-10 21:00:00,2024,22400763,203999,Nikola Jokic,Nuggets,Trail Blazers,Starter,Center,67.4,0.03974003221398259,1.0,10.0,pre_lineup_anomaly
+2024-11-22 20:00:00,2024,22400031,1629111,Jock Landale,Rockets,Trail Blazers,Bench,Center,6.2,0.03947608273018921,1.0,10.0,pre_lineup_anomaly
+2024-12-30 21:00:00,2024,22400445,203999,Nikola Jokic,Nuggets,Jazz,Starter,Center,88.9,0.039272117328913114,1.0,10.0,pre_lineup_anomaly
+2025-04-04 19:00:00,2024,22401119,1626167,Myles Turner,Pacers,Jazz,Starter,Center,52.9,0.039216248186743186,1.0,10.0,pre_lineup_anomaly
+2025-04-09 21:00:00,2024,22401162,1630625,Dalano Banton,Trail Blazers,Jazz,Starter,Forward,24.4,0.039213629476056666,1.0,10.0,pre_lineup_anomaly
+2024-12-25 20:00:00,2024,22400408,203076,Anthony Davis,Lakers,Warriors,Starter,Center,5.4,0.03918460582826078,1.0,10.0,pre_lineup_anomaly
+2025-02-26 19:30:00,2024,22400840,1628983,Shai Gilgeous-Alexander,Thunder,Nets,Starter,Guard,44.7,0.03888779331793846,1.0,10.0,pre_lineup_anomaly
+2025-01-21 22:00:00,2024,22400609,203999,Nikola Jokic,Nuggets,76ers,Starter,Center,70.6,0.03886651482774006,1.0,10.0,pre_lineup_anomaly
+2025-04-09 21:00:00,2024,22401162,1641712,Rayan Rupert,Trail Blazers,Jazz,Bench,Forward,30.8,0.03854968235922218,1.0,10.0,pre_lineup_anomaly
+2025-02-22 19:30:00,2024,22400807,203954,Joel Embiid,76ers,Nets,Starter,Center,29.9,0.03849158326203195,1.0,10.0,pre_lineup_anomaly
+2025-02-01 19:00:00,2024,22400688,203999,Nikola Jokic,Nuggets,Hornets,Starter,Center,80.1,0.038445856755515595,1.0,10.0,pre_lineup_anomaly
+2024-11-22 20:00:00,2024,22400031,1630578,Alperen Sengun,Rockets,Trail Blazers,Starter,Center,28.1,0.03837652695872795,1.0,10.0,pre_lineup_anomaly
+2025-04-11 21:30:00,2024,22401181,1642382,Branden Carlson,Thunder,Jazz,Bench,Center,21.9,0.03836443436565751,1.0,10.0,pre_lineup_anomaly
+2025-04-13 15:30:00,2024,22401195,1630162,Anthony Edwards,Timberwolves,Jazz,Starter,Guard,67.7,0.03799289273416273,1.0,10.0,pre_lineup_anomaly
+2024-11-23 20:00:00,2024,22400267,1630578,Alperen Sengun,Rockets,Trail Blazers,Starter,Center,39.5,0.03763431594347433,1.0,10.0,pre_lineup_anomaly
+2024-11-01 19:00:00,2024,22400133,1628386,Jarrett Allen,Cavaliers,Magic,Starter,Center,20.7,0.0373494629804757,1.0,10.0,pre_lineup_anomaly
+2025-04-06 18:00:00,2024,22401136,1630700,Dyson Daniels,Hawks,Jazz,Starter,Guard,43.2,0.03723501624552228,1.0,10.0,pre_lineup_anomaly
+2025-01-21 22:00:00,2024,22400609,1641790,PJ Hall,Nuggets,76ers,Bench,Center,9.1,0.03717002098029165,1.0,10.0,pre_lineup_anomaly
+2024-10-24 19:30:00,2024,22400074,1629029,Luka Doncic,Mavericks,Spurs,Starter,Forward,54.0,0.12007041941234464,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:00:00,2024,22400073,202685,Jonas Valanciunas,Wizards,Celtics,Bench,Center,27.0,0.1140809290764242,1.0,10.0,lineup_aware_anomaly
+2024-10-22 19:30:00,2024,22400061,1628973,Jalen Brunson,Knicks,Celtics,Starter,Guard,22.2,0.11048396230141122,1.0,10.0,lineup_aware_anomaly
+2025-03-19 20:00:00,2024,22401003,200782,P.J. Tucker,Knicks,Spurs,Bench,Forward,0.0,0.10773626392160307,1.0,10.0,lineup_aware_anomaly
+2025-02-20 19:30:00,2024,22400791,1630165,Killian Hayes,Nets,Cavaliers,Bench,Guard,13.7,0.10518242966028446,1.0,10.0,lineup_aware_anomaly
+2024-11-17 18:00:00,2024,22400237,1627763,Malcolm Brogdon,Wizards,Pistons,Bench,Guard,2.4,0.10164738109170712,1.0,10.0,lineup_aware_anomaly
+2025-02-08 16:00:00,2024,22400742,1630692,Jordan Goodwin,Lakers,Pacers,Bench,Guard,14.3,0.10117001982215512,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400067,1629731,Dean Wade,Cavaliers,Raptors,Starter,Center,22.1,0.10055642646326912,1.0,10.0,lineup_aware_anomaly
+2025-01-04 18:00:00,2024,22400478,1641787,Tosan Evbuomwan,Nets,76ers,Bench,Forward,7.699999999999999,0.0984189946887517,1.0,10.0,lineup_aware_anomaly
+2024-10-23 22:00:00,2024,22400072,1631133,Jabari Walker,Trail Blazers,Warriors,Bench,Forward,2.4,0.09755090370832609,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400066,203507,Giannis Antetokounmpo,Bucks,76ers,Starter,Forward,52.3,0.09651367664741006,1.0,10.0,lineup_aware_anomaly
+2024-10-30 22:00:00,2024,22400126,1641998,Trey Jemison III,Pelicans,Warriors,Bench,Center,4.4,0.09550831249283465,1.0,10.0,lineup_aware_anomaly
+2024-11-17 21:00:00,2024,22400243,1628964,Mo Bamba,Clippers,Jazz,Bench,Center,22.1,0.09529860312589655,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:00:00,2024,22400073,1630557,Corey Kispert,Wizards,Celtics,Bench,Forward,15.5,0.09496592890278477,1.0,10.0,lineup_aware_anomaly
+2024-10-23 22:00:00,2024,22400072,1631200,Kris Murray,Trail Blazers,Warriors,Bench,Forward,2.7,0.09393461202695508,1.0,10.0,lineup_aware_anomaly
+2024-10-22 22:00:00,2024,22400062,1629675,Naz Reid,Timberwolves,Lakers,Bench,Center,17.3,0.09250929158133048,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:30:00,2024,22400074,1641705,Victor Wembanyama,Spurs,Mavericks,Starter,Center,28.3,0.09088611627090837,1.0,10.0,lineup_aware_anomaly
+2025-02-21 22:00:00,2024,22400805,1628995,Kevin Knox II,Warriors,Kings,Bench,Forward,6.2,0.09013718667960258,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:30:00,2024,22400074,203939,Dwight Powell,Mavericks,Spurs,Bench,Center,3.2,0.09012255596826746,1.0,10.0,lineup_aware_anomaly
+2024-10-23 21:00:00,2024,22400070,1629723,John Konchar,Grizzlies,Jazz,Bench,Guard,12.5,0.09006169547038612,1.0,10.0,lineup_aware_anomaly
+2024-12-23 19:30:00,2024,22400397,1629013,Landry Shamet,Knicks,Raptors,Bench,Guard,2.0,0.08990467713046946,1.0,10.0,lineup_aware_anomaly
+2024-10-23 22:00:00,2024,22400072,1641712,Rayan Rupert,Trail Blazers,Warriors,Bench,Forward,12.6,0.0890077435043114,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400064,1627732,Ben Simmons,Nets,Hawks,Starter,Forward,21.0,0.08820224480547434,1.0,10.0,lineup_aware_anomaly
+2024-11-09 17:00:00,2024,22400197,1630170,Devin Vassell,Spurs,Jazz,Bench,Forward,22.2,0.08817006034852803,1.0,10.0,lineup_aware_anomaly
+2024-12-03 19:00:00,2024,22400050,1631109,Mark Williams,Hornets,76ers,Bench,Center,9.6,0.08788692585422453,1.0,10.0,lineup_aware_anomaly
+2024-10-24 22:00:00,2024,22400075,1627936,Alex Caruso,Thunder,Nuggets,Bench,Guard,12.2,0.08754356387507156,1.0,10.0,lineup_aware_anomaly
+2024-10-22 19:30:00,2024,22400061,1630540,Miles McBride,Knicks,Celtics,Bench,Guard,24.0,0.0874962382094846,1.0,10.0,lineup_aware_anomaly
+2024-10-23 22:00:00,2024,22400071,1628960,Grayson Allen,Suns,Clippers,Bench,Guard,18.7,0.08720741049879177,1.0,10.0,lineup_aware_anomaly
+2024-11-02 21:30:00,2024,22400147,1626158,Richaun Holmes,Wizards,Heat,Bench,Center,0.0,0.08709669064954473,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400066,200768,Kyle Lowry,76ers,Bucks,Bench,Guard,26.8,0.08705754841094115,1.0,10.0,lineup_aware_anomaly
+2024-11-06 20:00:00,2024,22400174,1628379,Luke Kennard,Grizzlies,Lakers,Bench,Guard,10.2,0.08665620746151748,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:00:00,2024,22400073,1628963,Marvin Bagley III,Wizards,Celtics,Bench,Forward,15.7,0.0866502382810348,1.0,10.0,lineup_aware_anomaly
+2024-10-24 22:00:00,2024,22400076,201942,DeMar DeRozan,Kings,Timberwolves,Starter,Forward,39.6,0.08651484136772547,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400065,203914,Gary Harris,Magic,Heat,Bench,Guard,28.1,0.08631314416591296,1.0,10.0,lineup_aware_anomaly
+2024-10-23 20:00:00,2024,22400068,1629684,Grant Williams,Hornets,Rockets,Bench,Forward,18.3,0.08560283132017543,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400067,1630171,Isaac Okoro,Cavaliers,Raptors,Bench,Forward,10.4,0.08551091444276049,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:00:00,2024,22400063,1627736,Malik Beasley,Pistons,Pacers,Bench,Guard,18.1,0.0848003904893665,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400064,1630533,Ziaire Williams,Nets,Hawks,Bench,Forward,13.1,0.08455878402773531,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:00:00,2024,22400073,1631098,Johnny Davis,Wizards,Celtics,Bench,Guard,0.0,0.08378016263579702,1.0,10.0,lineup_aware_anomaly
+2024-10-24 19:30:00,2024,22400074,1631103,Malaki Branham,Spurs,Mavericks,Bench,Forward,9.4,0.0828751954411906,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:00:00,2024,22400063,1630191,Isaiah Stewart,Pistons,Pacers,Bench,Center,13.8,0.08241095718790814,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400064,1630168,Onyeka Okongwu,Hawks,Nets,Bench,Center,46.1,0.08189306287447584,1.0,10.0,lineup_aware_anomaly
+2024-10-23 22:00:00,2024,22400071,1629645,Kevin Porter Jr.,Clippers,Suns,Bench,Forward,10.8,0.08105867896125485,1.0,10.0,lineup_aware_anomaly
+2024-11-11 20:00:00,2024,22400214,1630530,Trey Murphy III,Pelicans,Nets,Starter,Forward,20.0,0.0804652857756889,1.0,10.0,lineup_aware_anomaly
+2024-11-12 19:30:00,2024,22400004,203954,Joel Embiid,76ers,Knicks,Starter,Center,25.1,0.0793056913975092,1.0,10.0,lineup_aware_anomaly
+2024-10-22 22:00:00,2024,22400062,1628978,Donte DiVincenzo,Timberwolves,Lakers,Bench,Guard,23.1,0.0792017878411223,1.0,10.0,lineup_aware_anomaly
+2024-11-20 20:00:00,2024,22400256,1628392,Isaiah Hartenstein,Thunder,Trail Blazers,Bench,Center,43.3,0.07909303594387562,1.0,10.0,lineup_aware_anomaly
+2024-10-23 20:00:00,2024,22400069,1630172,Patrick Williams,Bulls,Pelicans,Starter,Forward,15.1,0.07720571292054113,1.0,10.0,lineup_aware_anomaly
+2024-10-24 22:00:00,2024,22400076,1631165,Keon Ellis,Kings,Timberwolves,Bench,Guard,9.2,0.07685085106393752,1.0,10.0,lineup_aware_anomaly
+2024-10-23 19:30:00,2024,22400065,1629130,Duncan Robinson,Heat,Magic,Bench,Forward,8.7,0.0768332851611373,1.0,10.0,lineup_aware_anomaly

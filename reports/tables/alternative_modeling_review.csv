@@ -1,0 +1,6 @@
+item,value,status,reason
+reported_best_xgboost_mae,6.7061,diagnostic_only,Reported on an 80/20 chronological row split using direct starter_minutes and other non-final assumptions.
+reported_best_extra_trees_mae,6.7576,diagnostic_only,"Strong result, but not comparable to the clean 2021-2023 train / 2024 validation / 2025 test design."
+direct_starter_minutes,used,leakage,"starter_minutes = current_is_starter * actual numMinutes, and actual minutes are known only after/during the game."
+target_formula,alternative notebook used -1.5 * turnovers in places,corrected,"This project target uses -1.0 * turnovers, matching the agreed fantasy-points formula."
+valid_ideas_kept,"tree ensembles, boosted models, time decay, rolling windows, momentum features",kept,These ideas can be evaluated under the clean split and leakage rules.

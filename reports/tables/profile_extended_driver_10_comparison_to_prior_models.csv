@@ -1,0 +1,12 @@
+model_label,feature_set,n_features,valid_pre_game,mae,rmse,r2,notes
+Best Isolation Forest anomaly model,lineup_aware_starter_flag_roll10_best_pca_plus_isolation,44,False,7.579672486347945,9.694710672391563,0.5773013707223377,Isolation Forest anomaly features; variant lineup_aware_anomaly.
+Best valid starter PCA model,lineup_aware_starter_flag_roll10_plus_pca_30,41,False,7.581493274826162,9.69404735724241,0.5773592110894976,Starter model plus 30 PCA components.
+Best valid starter-focused model,lineup_aware_starter_flag_roll10,11,False,7.655891244591493,9.78251609850373,0.5696098961274687,Starter model family included as a main comparison group.
+Lineup-aware starter-flag HGB,lineup_aware_starter_flag_roll10,11,False,7.655891244591493,9.78251609850373,0.5696098961274687,"Uses current_is_starter plus starter_minutes_roll_10, not actual current-game minutes."
+Broad valid HGB reference,pre_lineup_player_team_opp,486,True,7.731508771004425,9.90076184766369,0.5591423689619857,Broad benchmark with player/team/opponent shifted rolling features.
+Best valid PCA compact model,compact_scoring_plus_pca_30,75,True,7.747984576413208,9.90753503243398,0.5585389746749083,30 PCA components from unused broad features.
+Best valid tuned compact model,pre_lineup_compact_40_plus_scoring,45,True,7.769961117050048,9.933004652325202,0.5562663010115096,Tuned HGB config: no_early_stop_more_trees
+Compact scoring before tuning,pre_lineup_compact_40_plus_scoring,45,True,7.781769330266231,9.947804761804573,0.5549429954908913,Compact feature-refinement candidate before tuning.
+Best valid 11-feature replication,replication_11_safe_recent_starter,11,True,7.817988642824836,9.975004516803118,0.5525058766678708,Uses shifted starter-minutes history.
+Profile extended driver 10 interpretability,profile_extended_driver_10,144,True,7.868489330045214,10.075367489929633,0.5434556993698662,Best model in this experiment: hist_gradient_boosting; excludes player FP/component rolling
+Pre-lineup starter-history HGB,pre_lineup_starter_history_roll10,10,True,7.909683099771941,10.08782620329792,0.542325919972285,Uses shifted starter history including starter_minutes_roll_10.

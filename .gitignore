@@ -1,0 +1,10 @@
+kagglehub_cache/
+data/processed/
+reports/tables/*_predictions.csv
+reports/tables/modeling_rows_with_split_v1.csv
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+*.parquet

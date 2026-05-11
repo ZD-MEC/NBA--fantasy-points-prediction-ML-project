@@ -1,0 +1,16 @@
+metric,value
+rows,129750
+columns,590
+unique_players,1029
+unique_games,6077
+unique_player_games,129750
+duplicate_player_games,0
+date_min,2021-10-19 19:30:00
+date_max,2026-04-12 20:30:00
+seasons,"2021, 2022, 2023, 2024, 2025"
+target_missing,0
+target_mean,21.54498959537572
+target_median,19.7
+target_std,14.801578383901731
+target_min,-4.8
+target_max,105.3

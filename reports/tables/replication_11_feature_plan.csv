@@ -1,0 +1,23 @@
+feature_set,position,feature,available,valid_pre_game,leakage_note,source_concept
+replication_11_safe,1,fantasy_points_roll_3,True,True,Shifted historical feature; valid before the game.,recent fantasy production
+replication_11_safe,2,fantasy_points_roll_10,True,True,Shifted historical feature; valid before the game.,recent fantasy production
+replication_11_safe,3,fantasy_points_roll_30,True,True,Shifted historical feature; valid before the game.,recent fantasy production
+replication_11_safe,4,numMinutes_roll_10,True,True,Shifted historical feature; valid before the game.,playing time and starter role
+replication_11_safe,5,home,True,True,Pre-game static/context feature.,game location
+replication_11_safe,6,starter_minutes_roll_10,True,True,Shifted historical feature; valid before the game.,playing time and starter role
+replication_11_safe,7,pos_opp_difficulty_roll_30,True,True,Shifted historical feature; valid before the game.,position-specific opponent defensive context
+replication_11_safe,8,usagePercentage_roll_3,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe,9,usagePercentage_roll_10,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe,10,usagePercentage_roll_30,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe,11,usagePercentage_momentum_3_vs_10,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe_recent_starter,1,fantasy_points_roll_3,True,True,Shifted historical feature; valid before the game.,recent fantasy production
+replication_11_safe_recent_starter,2,fantasy_points_roll_10,True,True,Shifted historical feature; valid before the game.,recent fantasy production
+replication_11_safe_recent_starter,3,fantasy_points_roll_30,True,True,Shifted historical feature; valid before the game.,recent fantasy production
+replication_11_safe_recent_starter,4,numMinutes_roll_10,True,True,Shifted historical feature; valid before the game.,playing time and starter role
+replication_11_safe_recent_starter,5,home,True,True,Pre-game static/context feature.,game location
+replication_11_safe_recent_starter,6,starter_minutes_roll_3,True,True,Shifted historical feature; valid before the game.,playing time and starter role
+replication_11_safe_recent_starter,7,pos_opp_difficulty_roll_30,True,True,Shifted historical feature; valid before the game.,position-specific opponent defensive context
+replication_11_safe_recent_starter,8,usagePercentage_roll_3,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe_recent_starter,9,usagePercentage_roll_10,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe_recent_starter,10,usagePercentage_roll_30,True,True,Shifted historical feature; valid before the game.,offensive involvement
+replication_11_safe_recent_starter,11,usagePercentage_momentum_3_vs_10,True,True,Shifted historical feature; valid before the game.,offensive involvement

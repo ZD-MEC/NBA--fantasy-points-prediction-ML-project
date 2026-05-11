@@ -1,0 +1,4 @@
+model_family,reported_mae,valid_for_final_ranking,leakage_feature,explanation
+Alternative XGBoost final,6.7061,False,starter_minutes,Uses actual current-game minutes through starter_minutes.
+Alternative ExtraTrees final,6.7576,False,starter_minutes,Uses actual current-game minutes through starter_minutes.
+Alternative 11-feature ExtraTrees,6.9955,False,starter_minutes,This explains why the below-7 MAE was possible but not a valid pre-game prediction result.

@@ -1,0 +1,135 @@
+source_table,column,role,direct_feature_allowed,rolling_source,target_component,reason
+PlayerStatisticsExtended,firstName,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,lastName,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,personId,id,True,False,False,key/date needed for grain and joins
+PlayerStatisticsExtended,gameId,id,True,False,False,key/date needed for grain and joins
+PlayerStatisticsExtended,gameDateTimeEst,date,True,False,False,key/date needed for grain and joins
+PlayerStatisticsExtended,gameType,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,win,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,home,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,playerteamId,id,True,False,False,key/date needed for grain and joins
+PlayerStatisticsExtended,playerteamCity,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,playerteamName,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,opponentteamId,id,True,False,False,key/date needed for grain and joins
+PlayerStatisticsExtended,opponentteamCity,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,opponentteamName,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,comment,drop_same_game_leakage,False,False,False,same-game outcome/comment field
+PlayerStatisticsExtended,startingPosition,pre_game_context,True,False,False,known before game or useful for grouping/analysis
+PlayerStatisticsExtended,numMinutes,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,points,target,False,False,True,target component; use only to build fantasy_points and historical rolling
+PlayerStatisticsExtended,assists,target,False,False,True,target component; use only to build fantasy_points and historical rolling
+PlayerStatisticsExtended,reboundsTotal,target,False,False,True,target component; use only to build fantasy_points and historical rolling
+PlayerStatisticsExtended,reboundsOffensive,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,reboundsDefensive,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,fieldGoalsMade,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,fieldGoalsAttempted,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,fieldGoalsPercentage,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,threePointersMade,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,threePointersAttempted,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,threePointersPercentage,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,freeThrowsMade,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,freeThrowsAttempted,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,freeThrowsPercentage,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,steals,target,False,False,True,target component; use only to build fantasy_points and historical rolling
+PlayerStatisticsExtended,blocks,target,False,False,True,target component; use only to build fantasy_points and historical rolling
+PlayerStatisticsExtended,blocksAgainst,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,turnovers,target,False,False,True,target component; use only to build fantasy_points and historical rolling
+PlayerStatisticsExtended,foulsPersonal,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,plusMinusPoints,drop_same_game_leakage,False,False,False,same-game outcome/comment field
+PlayerStatisticsExtended,estimatedOffensiveRating,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,offensiveRating,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,estimatedDefensiveRating,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,defensiveRating,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,estimatedNetRating,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,netRating,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,assistPercentage,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,assistToTurnoverRatio,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,assistRatio,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,offensiveReboundPercentage,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,defensiveReboundPercentage,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,reboundPercentage,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,teamTurnoverPercentage,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,effectiveFieldGoalPercentage,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,trueShootingPercentage,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,usagePercentage,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,estimatedPace,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,pace,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,playerImpactEstimate,rolling_source_player,False,True,False,same-game player stat; use only after shift(1) rolling
+PlayerStatisticsExtended,possessions,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,pointsOffTurnovers,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,pointsSecondChance,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,pointsFastBreak,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+PlayerStatisticsExtended,pointsInPaint,drop_not_relevant_v1,False,False,False,not selected for v1 modeling
+generated,fantasy_points,target,False,True,True,generated target; also used only as shifted historical rolling source
+generated,current_is_starter,pre_game_context,True,True,False,generated lineup-aware direct feature and shifted historical starter-rate source
+Players,personId,id,True,False,False,static player profile feature
+Players,heightInches,static_profile,True,False,False,static player profile feature
+Players,bodyWeightLbs,static_profile,True,False,False,static player profile feature
+Players,guard,static_profile,True,False,False,static player profile feature
+Players,forward,static_profile,True,False,False,static player profile feature
+Players,center,static_profile,True,False,False,static player profile feature
+Players,draftYear,static_profile,True,False,False,static player profile feature
+Players,draftRound,static_profile,True,False,False,static player profile feature
+Players,draftNumber,static_profile,True,False,False,static player profile feature
+Players,school,static_profile,True,False,False,static player profile feature
+Players,country,static_profile,True,False,False,static player profile feature
+TeamStatisticsExtended,gameId,id,True,False,False,team-game merge key
+TeamStatisticsExtended,gameDateTimeEst,date,True,False,False,filter/date column
+TeamStatisticsExtended,gameType,date,True,False,False,filter/date column
+TeamStatisticsExtended,teamId,id,True,False,False,team-game merge key
+TeamStatisticsExtended,teamCity,pre_game_context,True,False,False,team labels/context
+TeamStatisticsExtended,teamName,pre_game_context,True,False,False,team labels/context
+TeamStatisticsExtended,opponentTeamId,id,True,False,False,team-game merge key
+TeamStatisticsExtended,opponentTeamCity,pre_game_context,True,False,False,team labels/context
+TeamStatisticsExtended,opponentTeamName,pre_game_context,True,False,False,team labels/context
+TeamStatisticsExtended,home,pre_game_context,True,False,False,team labels/context
+TeamStatisticsExtended,win,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,teamScore,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentScore,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,numMinutes,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,assists,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,steals,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,blocks,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,blocksAgainst,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,fieldGoalsPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,threePointersPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,freeThrowsPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,reboundsOffensive,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,reboundsDefensive,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,reboundsTotal,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,turnovers,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,plusMinusPoints,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,benchPoints,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,pointsFastBreak,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,pointsFromTurnovers,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,pointsInThePaint,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,pointsSecondChance,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,seasonWins,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,seasonLosses,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,estimatedOffensiveRating,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,offensiveRating,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,estimatedDefensiveRating,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,defensiveRating,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,estimatedNetRating,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,netRating,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,assistPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,assistToTurnoverRatio,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,assistRatio,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,offensiveReboundPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,defensiveReboundPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,reboundPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,teamTurnoverPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,effectiveFieldGoalPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,trueShootingPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,estimatedPace,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,pace,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,possessions,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,playerImpactEstimate,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentPointsOffTurnovers,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentPointsSecondChance,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentPointsFastBreak,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentPointsInPaint,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentEffectiveFieldGoalPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentFreeThrowAttemptRate,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentTurnoverPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling
+TeamStatisticsExtended,opponentOffensiveReboundPercentage,rolling_source_team,False,True,False,same-game team stat; use only after shift(1) team/opponent rolling

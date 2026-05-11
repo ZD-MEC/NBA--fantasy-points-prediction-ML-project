@@ -1,0 +1,113 @@
+raw_column,kept,drop_reason
+firstName,False,identifier/date/text metadata
+lastName,False,identifier/date/text metadata
+personId,False,identifier/date/text metadata
+gameId,False,identifier/date/text metadata
+gameDateTimeEst,False,identifier/date/text metadata
+gameType,False,identifier/date/text metadata
+gameLabel,False,identifier/date/text metadata
+gameSubLabel,False,identifier/date/text metadata
+seriesGameNumber,False,identifier/date/text metadata
+win,True,kept as shifted rolling-10 extended player stat
+home,True,kept as shifted rolling-10 extended player stat
+playerteamId,False,identifier/date/text metadata
+playerteamCity,False,identifier/date/text metadata
+playerteamName,False,identifier/date/text metadata
+opponentteamId,False,identifier/date/text metadata
+opponentteamCity,False,identifier/date/text metadata
+opponentteamName,False,identifier/date/text metadata
+comment,False,identifier/date/text metadata
+startingPosition,False,identifier/date/text metadata
+numMinutes,True,kept as shifted rolling-10 extended player stat
+points,False,direct player fantasy-points target/component excluded
+assists,False,direct player fantasy-points target/component excluded
+reboundsTotal,False,direct player fantasy-points target/component excluded
+reboundsOffensive,True,kept as shifted rolling-10 extended player stat
+reboundsDefensive,True,kept as shifted rolling-10 extended player stat
+fieldGoalsMade,True,kept as shifted rolling-10 extended player stat
+fieldGoalsAttempted,True,kept as shifted rolling-10 extended player stat
+fieldGoalsPercentage,True,kept as shifted rolling-10 extended player stat
+threePointersMade,True,kept as shifted rolling-10 extended player stat
+threePointersAttempted,True,kept as shifted rolling-10 extended player stat
+threePointersPercentage,True,kept as shifted rolling-10 extended player stat
+freeThrowsMade,True,kept as shifted rolling-10 extended player stat
+freeThrowsAttempted,True,kept as shifted rolling-10 extended player stat
+freeThrowsPercentage,True,kept as shifted rolling-10 extended player stat
+steals,False,direct player fantasy-points target/component excluded
+blocks,False,direct player fantasy-points target/component excluded
+blocksAgainst,True,kept as shifted rolling-10 extended player stat
+turnovers,False,direct player fantasy-points target/component excluded
+foulsPersonal,True,kept as shifted rolling-10 extended player stat
+foulsAgainst,True,kept as shifted rolling-10 extended player stat
+plusMinusPoints,True,kept as shifted rolling-10 extended player stat
+doubleDouble,True,kept as shifted rolling-10 extended player stat
+tripleDouble,True,kept as shifted rolling-10 extended player stat
+estimatedOffensiveRating,True,kept as shifted rolling-10 extended player stat
+offensiveRating,True,kept as shifted rolling-10 extended player stat
+spWorkOffensiveRating,True,kept as shifted rolling-10 extended player stat
+estimatedDefensiveRating,True,kept as shifted rolling-10 extended player stat
+defensiveRating,True,kept as shifted rolling-10 extended player stat
+spWorkDefensiveRating,True,kept as shifted rolling-10 extended player stat
+estimatedNetRating,True,kept as shifted rolling-10 extended player stat
+netRating,True,kept as shifted rolling-10 extended player stat
+spWorkNetRating,True,kept as shifted rolling-10 extended player stat
+assistPercentage,True,kept as shifted rolling-10 extended player stat
+assistToTurnoverRatio,True,kept as shifted rolling-10 extended player stat
+assistRatio,True,kept as shifted rolling-10 extended player stat
+offensiveReboundPercentage,True,kept as shifted rolling-10 extended player stat
+defensiveReboundPercentage,True,kept as shifted rolling-10 extended player stat
+reboundPercentage,True,kept as shifted rolling-10 extended player stat
+teamTurnoverPercentage,True,kept as shifted rolling-10 extended player stat
+estimatedTurnoverPercentage,True,kept as shifted rolling-10 extended player stat
+effectiveFieldGoalPercentage,True,kept as shifted rolling-10 extended player stat
+trueShootingPercentage,True,kept as shifted rolling-10 extended player stat
+usagePercentage,True,kept as shifted rolling-10 extended player stat
+estimatedUsagePercentage,True,kept as shifted rolling-10 extended player stat
+estimatedPace,True,kept as shifted rolling-10 extended player stat
+pace,True,kept as shifted rolling-10 extended player stat
+pacePer40,True,kept as shifted rolling-10 extended player stat
+spWorkPace,True,kept as shifted rolling-10 extended player stat
+playerImpactEstimate,True,kept as shifted rolling-10 extended player stat
+possessions,True,kept as shifted rolling-10 extended player stat
+pointsOffTurnovers,True,kept as shifted rolling-10 extended player stat
+pointsSecondChance,True,kept as shifted rolling-10 extended player stat
+pointsFastBreak,True,kept as shifted rolling-10 extended player stat
+pointsInPaint,True,kept as shifted rolling-10 extended player stat
+opponentPointsOffTurnovers,True,kept as shifted rolling-10 extended player stat
+opponentPointsSecondChance,True,kept as shifted rolling-10 extended player stat
+opponentPointsFastBreak,True,kept as shifted rolling-10 extended player stat
+opponentPointsInPaint,True,kept as shifted rolling-10 extended player stat
+percentFieldGoalAttempts2Point,True,kept as shifted rolling-10 extended player stat
+percentFieldGoalAttempts3Point,True,kept as shifted rolling-10 extended player stat
+percentPoints2Point,True,kept as shifted rolling-10 extended player stat
+percentPoints2PointMidRange,True,kept as shifted rolling-10 extended player stat
+percentPoints3Point,True,kept as shifted rolling-10 extended player stat
+percentPointsFastBreak,True,kept as shifted rolling-10 extended player stat
+percentPointsFreeThrow,True,kept as shifted rolling-10 extended player stat
+percentPointsOffTurnovers,True,kept as shifted rolling-10 extended player stat
+percentPointsInPaint,True,kept as shifted rolling-10 extended player stat
+percentAssisted2PointMade,True,kept as shifted rolling-10 extended player stat
+percentUnassisted2PointMade,True,kept as shifted rolling-10 extended player stat
+percentAssisted3PointMade,True,kept as shifted rolling-10 extended player stat
+percentUnassisted3PointMade,True,kept as shifted rolling-10 extended player stat
+percentAssistedFieldGoalsMade,True,kept as shifted rolling-10 extended player stat
+percentUnassistedFieldGoalsMade,True,kept as shifted rolling-10 extended player stat
+percentTeamFieldGoalsMade,True,kept as shifted rolling-10 extended player stat
+percentTeamFieldGoalsAttempted,True,kept as shifted rolling-10 extended player stat
+percentTeamThreePointersMade,True,kept as shifted rolling-10 extended player stat
+percentTeamThreePointersAttempted,True,kept as shifted rolling-10 extended player stat
+percentTeamFreeThrowsMade,True,kept as shifted rolling-10 extended player stat
+percentTeamFreeThrowsAttempted,True,kept as shifted rolling-10 extended player stat
+percentTeamOffensiveRebounds,True,kept as shifted rolling-10 extended player stat
+percentTeamDefensiveRebounds,True,kept as shifted rolling-10 extended player stat
+percentTeamRebounds,True,kept as shifted rolling-10 extended player stat
+percentTeamAssists,True,kept as shifted rolling-10 extended player stat
+percentTeamTurnovers,True,kept as shifted rolling-10 extended player stat
+percentTeamSteals,True,kept as shifted rolling-10 extended player stat
+percentTeamBlocks,True,kept as shifted rolling-10 extended player stat
+percentTeamBlocksAgainst,True,kept as shifted rolling-10 extended player stat
+percentTeamFoulsPersonal,True,kept as shifted rolling-10 extended player stat
+percentTeamFoulsDrawn,True,kept as shifted rolling-10 extended player stat
+percentTeamPoints,True,kept as shifted rolling-10 extended player stat
+game_date,False,identifier/date/text metadata
+season_start,False,identifier/date/text metadata

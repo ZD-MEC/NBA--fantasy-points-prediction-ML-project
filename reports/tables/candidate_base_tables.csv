@@ -1,0 +1,11 @@
+table_name,has_game_id,has_player_id,has_target_components,target_components_present,target_components_missing
+Games,True,False,False,,"points, reboundsTotal, assists, steals, blocks, turnovers"
+LeagueSchedule24_25,True,False,False,,"points, reboundsTotal, assists, steals, blocks, turnovers"
+LeagueSchedule25_26,True,False,False,,"points, reboundsTotal, assists, steals, blocks, turnovers"
+PlayByPlay,True,True,False,,"points, reboundsTotal, assists, steals, blocks, turnovers"
+PlayerStatistics,True,True,True,"points, reboundsTotal, assists, steals, blocks, turnovers",
+PlayerStatisticsExtended,True,True,True,"points, reboundsTotal, assists, steals, blocks, turnovers",
+Players,False,True,False,,"points, reboundsTotal, assists, steals, blocks, turnovers"
+TeamHistories,False,False,False,,"points, reboundsTotal, assists, steals, blocks, turnovers"
+TeamStatistics,True,False,False,"reboundsTotal, assists, steals, blocks, turnovers",points
+TeamStatisticsExtended,True,False,False,"reboundsTotal, assists, steals, blocks, turnovers",points

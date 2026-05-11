@@ -1,0 +1,577 @@
+feature,decision,reason,correlation_with_target,missing_pct
+gameId,drop,"identifier, label, date, or target column; not a numeric model feature",,
+personId,drop,"identifier, label, date, or target column; not a numeric model feature",,
+game_date,drop,"identifier, label, date, or target column; not a numeric model feature",,
+season_start,drop,"identifier, label, date, or target column; not a numeric model feature",,
+firstName,drop,"identifier, label, date, or target column; not a numeric model feature",,
+lastName,drop,"identifier, label, date, or target column; not a numeric model feature",,
+player_name,drop,"identifier, label, date, or target column; not a numeric model feature",,
+playerteamId,drop,"identifier, label, date, or target column; not a numeric model feature",,
+playerteamCity,drop,"identifier, label, date, or target column; not a numeric model feature",,
+playerteamName,drop,"identifier, label, date, or target column; not a numeric model feature",,
+opponentteamId,drop,"identifier, label, date, or target column; not a numeric model feature",,
+opponentteamCity,drop,"identifier, label, date, or target column; not a numeric model feature",,
+opponentteamName,drop,"identifier, label, date, or target column; not a numeric model feature",,
+home,eligible,eligible for at least one first-pass feature set,0.0087224445027819,0.0
+current_is_starter,eligible,eligible for at least one first-pass feature set,0.4919698424552405,0.0
+starter_minutes,drop,same-game role-minute diagnostic column; use shifted rolling versions for pre-game models,0.5693351888124621,0.0
+bench_minutes,drop,same-game role-minute diagnostic column; use shifted rolling versions for pre-game models,0.0020466795852081,0.0
+startingPosition,drop,"identifier, label, date, or target column; not a numeric model feature",,
+heightInches,eligible,eligible for at least one first-pass feature set,0.0745484257699583,0.0
+bodyWeightLbs,eligible,eligible for at least one first-pass feature set,0.0960835902516387,0.0017418111753371
+guard,eligible,eligible for at least one first-pass feature set,0.0078089753940917,0.0
+forward,eligible,eligible for at least one first-pass feature set,-0.0333823268434404,0.0
+center,eligible,eligible for at least one first-pass feature set,0.0863600442907066,0.0
+primary_position_group,drop,"identifier, label, date, or target column; not a numeric model feature",,
+years_since_draft,eligible,eligible for at least one first-pass feature set,-0.2152732843530899,0.0
+fantasy_points,drop,"identifier, label, date, or target column; not a numeric model feature",,
+days_since_last_game,eligible,eligible for at least one first-pass feature set,-0.0586516125803066,0.0079306358381502
+is_back_to_back,eligible,eligible for at least one first-pass feature set,0.0582919317467729,0.0
+fantasy_points_roll_3,eligible,eligible for at least one first-pass feature set,0.7022775055747135,0.0079306358381502
+fantasy_points_roll_5,eligible,eligible for at least one first-pass feature set,0.7197231667250609,0.0079306358381502
+fantasy_points_roll_10,eligible,eligible for at least one first-pass feature set,0.7297709085477713,0.0079306358381502
+fantasy_points_roll_30,eligible,eligible for at least one first-pass feature set,0.7250856596362891,0.0079306358381502
+fantasy_points_std_30,eligible,eligible for at least one first-pass feature set,0.420504530262998,0.0156685934489402
+fantasy_points_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0570001541875318,0.0079306358381502
+fantasy_points_momentum_3_vs_10,eligible,eligible for at least one first-pass feature set,0.063899362098689,0.0079306358381502
+fantasy_points_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.106023744534396,0.0079306358381502
+fantasy_points_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.1077222943680245,0.0160231213872832
+fantasy_points_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.1055613208436239,0.0160231213872832
+current_is_starter_roll_5,eligible,eligible for at least one first-pass feature set,0.468662477916352,0.0079306358381502
+current_is_starter_roll_10,eligible,eligible for at least one first-pass feature set,0.4688778416337299,0.0079306358381502
+current_is_starter_roll_30,eligible,eligible for at least one first-pass feature set,0.459723986100664,0.0079306358381502
+current_is_starter_std_30,drop,binary starter z/std feature is unstable and has high missingness,-0.0879663232390047,0.0156685934489402
+current_is_starter_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0606876931767624,0.0079306358381502
+current_is_starter_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.106357533751807,0.0079306358381502
+current_is_starter_z_5_vs_30,drop,binary starter z/std feature is unstable and has high missingness,0.2054379616785097,0.5542196531791908
+current_is_starter_z_10_vs_30,drop,binary starter z/std feature is unstable and has high missingness,0.2046665774718614,0.5542196531791908
+starter_minutes_roll_3,eligible,eligible for at least one first-pass feature set,0.5024994226411535,0.0079306358381502
+starter_minutes_roll_5,eligible,eligible for at least one first-pass feature set,0.5041940327881376,0.0079306358381502
+starter_minutes_roll_10,eligible,eligible for at least one first-pass feature set,0.5036042124188822,0.0079306358381502
+starter_minutes_roll_30,eligible,eligible for at least one first-pass feature set,0.4920002602135097,0.0079306358381502
+starter_minutes_std_30,eligible,eligible for at least one first-pass feature set,0.1033326173412438,0.0156685934489402
+starter_minutes_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0657106143480351,0.0079306358381502
+starter_minutes_momentum_3_vs_10,eligible,eligible for at least one first-pass feature set,0.0724931102450443,0.0079306358381502
+starter_minutes_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.1163274049163305,0.0079306358381502
+starter_minutes_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.1111391884180878,0.3625202312138728
+starter_minutes_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.1094136391752463,0.3625202312138728
+bench_minutes_roll_5,eligible,eligible for at least one first-pass feature set,-0.0944376667237134,0.0079306358381502
+bench_minutes_roll_10,eligible,eligible for at least one first-pass feature set,-0.0931717738605641,0.0079306358381502
+bench_minutes_roll_30,eligible,eligible for at least one first-pass feature set,-0.0708502011931815,0.0079306358381502
+bench_minutes_std_30,eligible,eligible for at least one first-pass feature set,-0.2626801668828299,0.0156685934489402
+bench_minutes_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0167376205821234,0.0079306358381502
+bench_minutes_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0634843502287915,0.0079306358381502
+bench_minutes_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0430521579840699,0.2079845857418111
+bench_minutes_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0551147975571352,0.2079845857418111
+numMinutes_roll_3,eligible,eligible for at least one first-pass feature set,0.6406597002005424,0.0079306358381502
+numMinutes_roll_5,eligible,eligible for at least one first-pass feature set,0.647741442149864,0.0079306358381502
+numMinutes_roll_10,eligible,eligible for at least one first-pass feature set,0.6502900878014162,0.0079306358381502
+numMinutes_roll_30,eligible,eligible for at least one first-pass feature set,0.6421613048412316,0.0079306358381502
+numMinutes_std_30,eligible,eligible for at least one first-pass feature set,-0.2767702165369945,0.0156685934489402
+numMinutes_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0683379665278834,0.0079306358381502
+numMinutes_momentum_3_vs_10,eligible,eligible for at least one first-pass feature set,0.0793537379917097,0.0079306358381502
+numMinutes_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.1022097638583163,0.0079306358381502
+numMinutes_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.1127795359847753,0.0162774566473988
+numMinutes_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.103565955590107,0.0162774566473988
+points_roll_5,eligible,eligible for at least one first-pass feature set,0.678569760610955,0.0079306358381502
+points_roll_10,eligible,eligible for at least one first-pass feature set,0.6905298916706901,0.0079306358381502
+points_roll_30,eligible,eligible for at least one first-pass feature set,0.6878139351136404,0.0079306358381502
+points_std_30,eligible,eligible for at least one first-pass feature set,0.4911103518448297,0.0156685934489402
+points_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0493934803813684,0.0079306358381502
+points_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0994729479792392,0.0079306358381502
+points_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.1032312033630585,0.018281310211946
+points_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.1031402511045012,0.018281310211946
+reboundsTotal_roll_5,eligible,eligible for at least one first-pass feature set,0.5236768458810492,0.0079306358381502
+reboundsTotal_roll_10,eligible,eligible for at least one first-pass feature set,0.5356260071986819,0.0079306358381502
+reboundsTotal_roll_30,eligible,eligible for at least one first-pass feature set,0.536281801630391,0.0079306358381502
+reboundsTotal_std_30,eligible,eligible for at least one first-pass feature set,0.3279430467678864,0.0156685934489402
+reboundsTotal_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0405119675900999,0.0079306358381502
+reboundsTotal_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0709230792564273,0.0079306358381502
+reboundsTotal_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0757271921285597,0.0185973025048169
+reboundsTotal_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0727873664315175,0.0185973025048169
+assists_roll_5,eligible,eligible for at least one first-pass feature set,0.55354753558849,0.0079306358381502
+assists_roll_10,eligible,eligible for at least one first-pass feature set,0.5645232556018697,0.0079306358381502
+assists_roll_30,eligible,eligible for at least one first-pass feature set,0.5636607190542609,0.0079306358381502
+assists_std_30,eligible,eligible for at least one first-pass feature set,0.460223629366616,0.0156685934489402
+assists_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0400457023285426,0.0079306358381502
+assists_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0807144611771833,0.0079306358381502
+assists_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0782522235064847,0.0248400770712909
+assists_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.078656986509108,0.0248400770712909
+steals_roll_5,eligible,eligible for at least one first-pass feature set,0.3705239531118527,0.0079306358381502
+steals_roll_10,eligible,eligible for at least one first-pass feature set,0.4199957497394237,0.0079306358381502
+steals_roll_30,eligible,eligible for at least one first-pass feature set,0.461414513726012,0.0079306358381502
+steals_std_30,eligible,eligible for at least one first-pass feature set,0.3813534026404165,0.0156685934489402
+steals_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0186018855634853,0.0079306358381502
+steals_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0375256070084111,0.0079306358381502
+steals_z_5_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0398777373411935,0.0333641618497109
+steals_z_10_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0406539684350532,0.0333641618497109
+blocks_roll_5,eligible,eligible for at least one first-pass feature set,0.2844865980747558,0.0079306358381502
+blocks_roll_10,eligible,eligible for at least one first-pass feature set,0.308049182337396,0.0079306358381502
+blocks_roll_30,eligible,eligible for at least one first-pass feature set,0.3225240520614076,0.0079306358381502
+blocks_std_30,eligible,eligible for at least one first-pass feature set,0.3194544646448828,0.0156685934489402
+blocks_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0145511465719421,0.0079306358381502
+blocks_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0296774453793519,0.0079306358381502
+blocks_z_5_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0323050685719295,0.0567321772639691
+blocks_z_10_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0327402951000238,0.0567321772639691
+turnovers_roll_5,eligible,eligible for at least one first-pass feature set,0.5724004455796846,0.0079306358381502
+turnovers_roll_10,eligible,eligible for at least one first-pass feature set,0.6049654888697215,0.0079306358381502
+turnovers_roll_30,eligible,eligible for at least one first-pass feature set,0.6239655332072788,0.0079306358381502
+turnovers_std_30,eligible,eligible for at least one first-pass feature set,0.5493886977869337,0.0156685934489402
+turnovers_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0268240670322431,0.0079306358381502
+turnovers_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0490833208863122,0.0079306358381502
+turnovers_z_5_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.054780632626232,0.0264200385356454
+turnovers_z_10_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.052112857970674,0.0264200385356454
+usagePercentage_roll_3,eligible,eligible for at least one first-pass feature set,0.4523297133042546,0.0079306358381502
+usagePercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.4807645102698768,0.0079306358381502
+usagePercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.5052188760180656,0.0079306358381502
+usagePercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.521188339634693,0.0079306358381502
+usagePercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.3425187920168315,0.0156685934489402
+usagePercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0153813439358336,0.0079306358381502
+usagePercentage_momentum_3_vs_10,eligible,eligible for at least one first-pass feature set,0.0175641224222885,0.0079306358381502
+usagePercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.03412385469919,0.0079306358381502
+usagePercentage_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.042928403765796,0.0160770712909441
+usagePercentage_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0439256113002728,0.0160770712909441
+trueShootingPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.2832772318132173,0.0079306358381502
+trueShootingPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.3276067077491498,0.0079306358381502
+trueShootingPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.364878604164709,0.0079306358381502
+trueShootingPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.5744256314256148,0.0156685934489402
+trueShootingPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.01901857361865,0.0079306358381502
+trueShootingPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0375450654052188,0.0079306358381502
+trueShootingPercentage_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0400381184345552,0.0178497109826589
+trueShootingPercentage_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0406275858152054,0.0178497109826589
+effectiveFieldGoalPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.2529793751804421,0.0079306358381502
+effectiveFieldGoalPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.2934455961548129,0.0079306358381502
+effectiveFieldGoalPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.3282007595754487,0.0079306358381502
+effectiveFieldGoalPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.5612973409028239,0.0156685934489402
+effectiveFieldGoalPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0176758754248307,0.0079306358381502
+effectiveFieldGoalPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0347493379277118,0.0079306358381502
+effectiveFieldGoalPercentage_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0362567686595483,0.0189364161849711
+effectiveFieldGoalPercentage_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0358168127032977,0.0189364161849711
+fieldGoalsPercentage_roll_5,drop,redundant first-pass feature family based on EDA redundancy review,0.288255939195108,0.0079306358381502
+fieldGoalsPercentage_roll_10,drop,redundant first-pass feature family based on EDA redundancy review,0.3246935643358984,0.0079306358381502
+fieldGoalsPercentage_roll_30,drop,redundant first-pass feature family based on EDA redundancy review,0.3512211912826303,0.0079306358381502
+fieldGoalsPercentage_std_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.5393444607399877,0.0156685934489402
+fieldGoalsPercentage_momentum_5_vs_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0193921407811857,0.0079306358381502
+fieldGoalsPercentage_momentum_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0379472646956616,0.0079306358381502
+fieldGoalsPercentage_z_5_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0393291961763707,0.0190366088631984
+fieldGoalsPercentage_z_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0388115750242878,0.0190366088631984
+threePointersPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.1941418008756289,0.0079306358381502
+threePointersPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.2173799401783172,0.0079306358381502
+threePointersPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.2303223080145921,0.0079306358381502
+threePointersPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.1359385575085793,0.0156685934489402
+threePointersPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.011178798468632,0.0079306358381502
+threePointersPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0298020358676075,0.0079306358381502
+threePointersPercentage_z_5_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0283927396696049,0.100300578034682
+threePointersPercentage_z_10_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0306302296346502,0.100300578034682
+freeThrowsPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.5148350681110921,0.0079306358381502
+freeThrowsPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.5605088056597861,0.0079306358381502
+freeThrowsPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.5905398401841573,0.0079306358381502
+freeThrowsPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.1124355107466139,0.0156685934489402
+freeThrowsPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0250258435107821,0.0079306358381502
+freeThrowsPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0563657428737327,0.0079306358381502
+freeThrowsPercentage_z_5_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0527710075613274,0.0352986512524084
+freeThrowsPercentage_z_10_vs_30,drop,noisy low-volume z-score feature; keep rolling/momentum first,0.0552605624180348,0.0352986512524084
+playerImpactEstimate_roll_5,eligible,eligible for at least one first-pass feature set,0.2408366903252915,0.0079306358381502
+playerImpactEstimate_roll_10,eligible,eligible for at least one first-pass feature set,0.2796047325685769,0.0079306358381502
+playerImpactEstimate_roll_30,eligible,eligible for at least one first-pass feature set,0.3036818741162214,0.0079306358381502
+playerImpactEstimate_std_30,eligible,eligible for at least one first-pass feature set,-0.2594843929994687,0.0156685934489402
+playerImpactEstimate_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0058010014489711,0.0079306358381502
+playerImpactEstimate_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0193068521418035,0.0079306358381502
+playerImpactEstimate_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0389418542987678,0.0159537572254335
+playerImpactEstimate_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0420104343803399,0.0159537572254335
+offensiveRating_roll_5,eligible,eligible for at least one first-pass feature set,0.2864879714427761,0.0079306358381502
+offensiveRating_roll_10,eligible,eligible for at least one first-pass feature set,0.3299771206069058,0.0079306358381502
+offensiveRating_roll_30,eligible,eligible for at least one first-pass feature set,0.3604862405331453,0.0079306358381502
+offensiveRating_std_30,eligible,eligible for at least one first-pass feature set,-0.4600337548391362,0.0156685934489402
+offensiveRating_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0115862243306995,0.0079306358381502
+offensiveRating_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0295846833331129,0.0079306358381502
+offensiveRating_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0342295114849853,0.0158766859344894
+offensiveRating_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0381689654475033,0.0158766859344894
+defensiveRating_roll_5,eligible,eligible for at least one first-pass feature set,0.1046247148277745,0.0079306358381502
+defensiveRating_roll_10,eligible,eligible for at least one first-pass feature set,0.1251406531557851,0.0079306358381502
+defensiveRating_roll_30,eligible,eligible for at least one first-pass feature set,0.1398209338190806,0.0079306358381502
+defensiveRating_std_30,eligible,eligible for at least one first-pass feature set,-0.442868214560369,0.0156685934489402
+defensiveRating_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0049460907073323,0.0079306358381502
+defensiveRating_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0165757381981726,0.0079306358381502
+defensiveRating_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.018924269365541,0.015776493256262
+defensiveRating_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0215216462343332,0.015776493256262
+estimatedDefensiveRating_roll_5,drop,redundant first-pass feature family based on EDA redundancy review,0.0405345730189141,0.0079306358381502
+estimatedDefensiveRating_roll_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0480923080528841,0.0079306358381502
+estimatedDefensiveRating_roll_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0501716116469059,0.0079306358381502
+estimatedDefensiveRating_std_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.4208403156077671,0.0156685934489402
+estimatedDefensiveRating_momentum_5_vs_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0032268143056324,0.0079306358381502
+estimatedDefensiveRating_momentum_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0121011171783294,0.0079306358381502
+estimatedDefensiveRating_z_5_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0135164620739929,0.0157610789980732
+estimatedDefensiveRating_z_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0161234233967201,0.0157610789980732
+pace_roll_5,eligible,eligible for at least one first-pass feature set,-0.0428056383108092,0.0079306358381502
+pace_roll_10,eligible,eligible for at least one first-pass feature set,-0.0520650980445379,0.0079306358381502
+pace_roll_30,eligible,eligible for at least one first-pass feature set,-0.0708609475887063,0.0079306358381502
+pace_std_30,eligible,eligible for at least one first-pass feature set,-0.057197110950458,0.0156685934489402
+pace_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0056711400155533,0.0079306358381502
+pace_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.004087964444719,0.0079306358381502
+pace_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0124416712965697,0.0156763005780346
+pace_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0098998406010826,0.0156763005780346
+starter_minutes_share_roll_3,eligible,eligible for at least one first-pass feature set,0.4560812839203292,0.0082697495183044
+starter_minutes_share_roll_5,eligible,eligible for at least one first-pass feature set,0.4550178023661171,0.0082389210019267
+starter_minutes_share_roll_10,eligible,eligible for at least one first-pass feature set,0.4516798121264262,0.0082389210019267
+starter_minutes_share_roll_30,eligible,eligible for at least one first-pass feature set,0.436656604490476,0.0082389210019267
+team_win_roll_5,eligible,eligible for at least one first-pass feature set,0.0048285421985751,0.20052408477842
+team_win_roll_10,eligible,eligible for at least one first-pass feature set,0.0056984314878958,0.20052408477842
+team_win_roll_30,eligible,eligible for at least one first-pass feature set,0.0056189740423852,0.20052408477842
+team_win_std_30,eligible,eligible for at least one first-pass feature set,0.0039570871591447,0.20052408477842
+team_win_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0003782712615541,0.20052408477842
+team_win_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0021112143498079,0.20052408477842
+team_win_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0017487335537574,0.20052408477842
+team_win_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0021251355422095,0.20052408477842
+team_score_roll_5,eligible,eligible for at least one first-pass feature set,0.012955941968585,0.20052408477842
+team_score_roll_10,eligible,eligible for at least one first-pass feature set,0.0146320556132725,0.20052408477842
+team_score_roll_30,eligible,eligible for at least one first-pass feature set,0.0168124393809933,0.20052408477842
+team_score_std_30,eligible,eligible for at least one first-pass feature set,-0.0090745895823385,0.20052408477842
+team_score_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0015964563955378,0.20052408477842
+team_score_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0021105658822052,0.20052408477842
+team_score_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0028303763250118,0.20052408477842
+team_score_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.002486333607236,0.20052408477842
+team_points_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0078834321642556,0.20052408477842
+team_points_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0061262287339995,0.20052408477842
+team_points_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0055933403798669,0.20052408477842
+team_points_allowed_std_30,eligible,eligible for at least one first-pass feature set,-0.0037731516431284,0.20052408477842
+team_points_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0050593510707028,0.20052408477842
+team_points_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0027959717919169,0.20052408477842
+team_points_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0055241374537944,0.20052408477842
+team_points_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0025113052156188,0.20052408477842
+team_pace_roll_5,eligible,eligible for at least one first-pass feature set,0.0083462487773388,0.20052408477842
+team_pace_roll_10,eligible,eligible for at least one first-pass feature set,0.0089625480902816,0.20052408477842
+team_pace_roll_30,eligible,eligible for at least one first-pass feature set,0.0128171578205384,0.20052408477842
+team_pace_std_30,eligible,eligible for at least one first-pass feature set,0.0037365709161773,0.20052408477842
+team_pace_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.001226231870947,0.20052408477842
+team_pace_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0031644522250092,0.20052408477842
+team_pace_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0014080036081219,0.20052408477842
+team_pace_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0033064855483262,0.20052408477842
+team_offensiveRating_roll_5,eligible,eligible for at least one first-pass feature set,0.010492290128404,0.20052408477842
+team_offensiveRating_roll_10,eligible,eligible for at least one first-pass feature set,0.0120254515850248,0.20052408477842
+team_offensiveRating_roll_30,eligible,eligible for at least one first-pass feature set,0.0108697854764485,0.20052408477842
+team_offensiveRating_std_30,eligible,eligible for at least one first-pass feature set,-0.0080957568536108,0.20052408477842
+team_offensiveRating_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0011869639196962,0.20052408477842
+team_offensiveRating_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0055803395189514,0.20052408477842
+team_offensiveRating_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0042484783144541,0.20052408477842
+team_offensiveRating_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0056455931201458,0.20052408477842
+team_defensiveRating_roll_5,eligible,eligible for at least one first-pass feature set,0.0047706660349927,0.20052408477842
+team_defensiveRating_roll_10,eligible,eligible for at least one first-pass feature set,0.0023463325513869,0.20052408477842
+team_defensiveRating_roll_30,eligible,eligible for at least one first-pass feature set,-0.0024653427962751,0.20052408477842
+team_defensiveRating_std_30,eligible,eligible for at least one first-pass feature set,-0.0035453745649469,0.20052408477842
+team_defensiveRating_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0047829598130053,0.20052408477842
+team_defensiveRating_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0062778010363936,0.20052408477842
+team_defensiveRating_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0076064029745946,0.20052408477842
+team_defensiveRating_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0059027028664664,0.20052408477842
+team_estimatedDefensiveRating_roll_5,drop,redundant first-pass feature family based on EDA redundancy review,0.0043580504437389,0.20052408477842
+team_estimatedDefensiveRating_roll_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0023504560219689,0.20052408477842
+team_estimatedDefensiveRating_roll_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.0024365846648332,0.20052408477842
+team_estimatedDefensiveRating_std_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.0035950023604444,0.20052408477842
+team_estimatedDefensiveRating_momentum_5_vs_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0041015455420441,0.20052408477842
+team_estimatedDefensiveRating_momentum_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0062659715386941,0.20052408477842
+team_estimatedDefensiveRating_z_5_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0071296324613961,0.20052408477842
+team_estimatedDefensiveRating_z_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0059706240368121,0.20052408477842
+team_fieldGoalsPercentage_roll_5,drop,redundant first-pass feature family based on EDA redundancy review,0.0072326389065002,0.20052408477842
+team_fieldGoalsPercentage_roll_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0065729365285446,0.20052408477842
+team_fieldGoalsPercentage_roll_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0052912745991392,0.20052408477842
+team_fieldGoalsPercentage_std_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.0068042901072105,0.20052408477842
+team_fieldGoalsPercentage_momentum_5_vs_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0032397572480334,0.20052408477842
+team_fieldGoalsPercentage_momentum_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.003826122345211,0.20052408477842
+team_fieldGoalsPercentage_z_5_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0044574492891284,0.20052408477842
+team_fieldGoalsPercentage_z_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.003842607954112,0.20052408477842
+team_threePointersPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.0061726955195093,0.20052408477842
+team_threePointersPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.0032056072190399,0.20052408477842
+team_threePointersPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.0029902892190263,0.20052408477842
+team_threePointersPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.0068364774201264,0.20052408477842
+team_threePointersPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0056775574622067,0.20052408477842
+team_threePointersPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0016165513963577,0.20052408477842
+team_threePointersPercentage_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.005372013317031,0.20052408477842
+team_threePointersPercentage_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0021921364260194,0.20052408477842
+team_effectiveFieldGoalPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.0060053215759419,0.20052408477842
+team_effectiveFieldGoalPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.0045910254770305,0.20052408477842
+team_effectiveFieldGoalPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.0028156576275681,0.20052408477842
+team_effectiveFieldGoalPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.0070181035286517,0.20052408477842
+team_effectiveFieldGoalPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0038886561149561,0.20052408477842
+team_effectiveFieldGoalPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0037069183515825,0.20052408477842
+team_effectiveFieldGoalPercentage_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0048593355638125,0.20052408477842
+team_effectiveFieldGoalPercentage_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.003656883070878,0.20052408477842
+team_trueShootingPercentage_roll_5,eligible,eligible for at least one first-pass feature set,0.005977567903526,0.20052408477842
+team_trueShootingPercentage_roll_10,eligible,eligible for at least one first-pass feature set,0.004772369094775,0.20052408477842
+team_trueShootingPercentage_roll_30,eligible,eligible for at least one first-pass feature set,0.0028822712891648,0.20052408477842
+team_trueShootingPercentage_std_30,eligible,eligible for at least one first-pass feature set,-0.0110083079674587,0.20052408477842
+team_trueShootingPercentage_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0035894923695553,0.20052408477842
+team_trueShootingPercentage_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0039068446379071,0.20052408477842
+team_trueShootingPercentage_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0047782634761346,0.20052408477842
+team_trueShootingPercentage_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0039003320624613,0.20052408477842
+team_assists_roll_5,eligible,eligible for at least one first-pass feature set,0.0119370359453581,0.20052408477842
+team_assists_roll_10,eligible,eligible for at least one first-pass feature set,0.0134743715257306,0.20052408477842
+team_assists_roll_30,eligible,eligible for at least one first-pass feature set,0.0137765818860447,0.20052408477842
+team_assists_std_30,eligible,eligible for at least one first-pass feature set,0.0002736327550038,0.20052408477842
+team_assists_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0009150967851649,0.20052408477842
+team_assists_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0034027284747231,0.20052408477842
+team_assists_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0023799376113583,0.20052408477842
+team_assists_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0034788791365871,0.20052408477842
+team_reboundsTotal_roll_5,eligible,eligible for at least one first-pass feature set,0.0046523739394828,0.20052408477842
+team_reboundsTotal_roll_10,eligible,eligible for at least one first-pass feature set,0.0084683791563021,0.20052408477842
+team_reboundsTotal_roll_30,eligible,eligible for at least one first-pass feature set,0.0148367851878988,0.20052408477842
+team_reboundsTotal_std_30,eligible,eligible for at least one first-pass feature set,0.013409698625607,0.20052408477842
+team_reboundsTotal_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0035812401919641,0.20052408477842
+team_reboundsTotal_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0045198862966431,0.20052408477842
+team_reboundsTotal_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0054256141929511,0.20052408477842
+team_reboundsTotal_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0045292313886687,0.20052408477842
+team_steals_roll_5,eligible,eligible for at least one first-pass feature set,0.0060907251097146,0.20052408477842
+team_steals_roll_10,eligible,eligible for at least one first-pass feature set,0.0080816475975507,0.20052408477842
+team_steals_roll_30,eligible,eligible for at least one first-pass feature set,0.0116290708300056,0.20052408477842
+team_steals_std_30,eligible,eligible for at least one first-pass feature set,0.004135248123028,0.20052408477842
+team_steals_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0008053503101162,0.20052408477842
+team_steals_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0015770220257889,0.20052408477842
+team_steals_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0014885692459652,0.20052408477842
+team_steals_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0018885345642592,0.20052408477842
+team_blocks_roll_5,eligible,eligible for at least one first-pass feature set,0.0001281896879946,0.20052408477842
+team_blocks_roll_10,eligible,eligible for at least one first-pass feature set,-0.000901960245318,0.20052408477842
+team_blocks_roll_30,eligible,eligible for at least one first-pass feature set,0.0022660629259157,0.20052408477842
+team_blocks_std_30,eligible,eligible for at least one first-pass feature set,-0.0033887248158072,0.20052408477842
+team_blocks_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0014543467905465,0.20052408477842
+team_blocks_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0040972321365445,0.20052408477842
+team_blocks_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0017222424291078,0.20052408477842
+team_blocks_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0041790954141607,0.20052408477842
+team_turnovers_roll_5,eligible,eligible for at least one first-pass feature set,-0.0058263194635435,0.20052408477842
+team_turnovers_roll_10,eligible,eligible for at least one first-pass feature set,-0.0078235833569494,0.20052408477842
+team_turnovers_roll_30,eligible,eligible for at least one first-pass feature set,-0.0034380874890135,0.20052408477842
+team_turnovers_std_30,eligible,eligible for at least one first-pass feature set,0.0090660551574037,0.20052408477842
+team_turnovers_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0008028228334232,0.20052408477842
+team_turnovers_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0080760178037234,0.20052408477842
+team_turnovers_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0046816049987014,0.20052408477842
+team_turnovers_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0080245051678213,0.20052408477842
+team_pointsInThePaint_roll_5,eligible,eligible for at least one first-pass feature set,0.015356878474475,0.2032215799614643
+team_pointsInThePaint_roll_10,eligible,eligible for at least one first-pass feature set,0.0180898054341405,0.2032215799614643
+team_pointsInThePaint_roll_30,eligible,eligible for at least one first-pass feature set,0.017952559774958,0.2030366088631984
+team_pointsInThePaint_std_30,eligible,eligible for at least one first-pass feature set,0.0017256665319822,0.2056416184971098
+team_pointsInThePaint_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.00026122512135,0.2032215799614643
+team_pointsInThePaint_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0057064961181877,0.2032215799614643
+team_pointsInThePaint_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0038332203021181,0.2058265895953757
+team_pointsInThePaint_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0058293495233594,0.2058265895953757
+team_pointsFastBreak_roll_5,eligible,eligible for at least one first-pass feature set,0.016414571168057,0.2032215799614643
+team_pointsFastBreak_roll_10,eligible,eligible for at least one first-pass feature set,0.0188487490510469,0.2032215799614643
+team_pointsFastBreak_roll_30,eligible,eligible for at least one first-pass feature set,0.0197874266639012,0.2030366088631984
+team_pointsFastBreak_std_30,eligible,eligible for at least one first-pass feature set,0.0108786119070639,0.2056416184971098
+team_pointsFastBreak_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0015759351076395,0.2032215799614643
+team_pointsFastBreak_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.005046254650667,0.2032215799614643
+team_pointsFastBreak_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0044222910011192,0.2057418111753371
+team_pointsFastBreak_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0044247596619152,0.2057418111753371
+team_pointsSecondChance_roll_5,eligible,eligible for at least one first-pass feature set,0.0055550440040529,0.2032215799614643
+team_pointsSecondChance_roll_10,eligible,eligible for at least one first-pass feature set,0.008055004312323,0.2032215799614643
+team_pointsSecondChance_roll_30,eligible,eligible for at least one first-pass feature set,0.0096505347104545,0.2030366088631984
+team_pointsSecondChance_std_30,eligible,eligible for at least one first-pass feature set,0.0037736546120705,0.2056416184971098
+team_pointsSecondChance_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0016491911294952,0.2032215799614643
+team_pointsSecondChance_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0004839223817885,0.2032215799614643
+team_pointsSecondChance_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0004959424656883,0.2056416184971098
+team_pointsSecondChance_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0004442444348274,0.2056416184971098
+team_pointsFromTurnovers_roll_5,eligible,eligible for at least one first-pass feature set,0.0049738724942161,0.2032215799614643
+team_pointsFromTurnovers_roll_10,eligible,eligible for at least one first-pass feature set,0.0055742981391789,0.2032215799614643
+team_pointsFromTurnovers_roll_30,eligible,eligible for at least one first-pass feature set,0.0064204750859142,0.2030366088631984
+team_pointsFromTurnovers_std_30,eligible,eligible for at least one first-pass feature set,-0.0002196136704291,0.2056416184971098
+team_pointsFromTurnovers_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0007720309388586,0.2032215799614643
+team_pointsFromTurnovers_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0010178654719947,0.2032215799614643
+team_pointsFromTurnovers_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0017924110998806,0.2059884393063583
+team_pointsFromTurnovers_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0012160176319839,0.2059884393063583
+opp_win_roll_5,eligible,eligible for at least one first-pass feature set,-0.023111568915246,0.20052408477842
+opp_win_roll_10,eligible,eligible for at least one first-pass feature set,-0.0287106976262799,0.20052408477842
+opp_win_roll_30,eligible,eligible for at least one first-pass feature set,-0.0352640417913909,0.20052408477842
+opp_win_std_30,eligible,eligible for at least one first-pass feature set,-0.0057824316281307,0.20052408477842
+opp_win_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.000260186986041,0.20052408477842
+opp_win_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0017204997643165,0.20052408477842
+opp_win_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0010409887710511,0.20052408477842
+opp_win_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0019318769199246,0.20052408477842
+opp_points_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0385914346354522,0.20052408477842
+opp_points_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0440978292767041,0.20052408477842
+opp_points_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0459149698103347,0.20052408477842
+opp_points_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0017576847822465,0.20052408477842
+opp_points_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0039127221755602,0.20052408477842
+opp_points_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0127942697131914,0.20052408477842
+opp_points_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0107328041350541,0.20052408477842
+opp_points_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0123181753464881,0.20052408477842
+opp_pace_roll_5,eligible,eligible for at least one first-pass feature set,0.0296882127700686,0.20052408477842
+opp_pace_roll_10,eligible,eligible for at least one first-pass feature set,0.0339532404122383,0.20052408477842
+opp_pace_roll_30,eligible,eligible for at least one first-pass feature set,0.0369108474403888,0.20052408477842
+opp_pace_std_30,eligible,eligible for at least one first-pass feature set,0.0075528677267167,0.20052408477842
+opp_pace_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0007429671824308,0.20052408477842
+opp_pace_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0054632666884319,0.20052408477842
+opp_pace_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0029156319183612,0.20052408477842
+opp_pace_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0040366898789496,0.20052408477842
+opp_defensiveRating_roll_5,eligible,eligible for at least one first-pass feature set,0.0306606593481948,0.20052408477842
+opp_defensiveRating_roll_10,eligible,eligible for at least one first-pass feature set,0.0355240576687212,0.20052408477842
+opp_defensiveRating_roll_30,eligible,eligible for at least one first-pass feature set,0.0366390637643032,0.20052408477842
+opp_defensiveRating_std_30,eligible,eligible for at least one first-pass feature set,-0.0085613094935241,0.20052408477842
+opp_defensiveRating_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0042376044555528,0.20052408477842
+opp_defensiveRating_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0126063112476802,0.20052408477842
+opp_defensiveRating_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0109201601719293,0.20052408477842
+opp_defensiveRating_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0124306475148417,0.20052408477842
+opp_estimatedDefensiveRating_roll_5,drop,redundant first-pass feature family based on EDA redundancy review,0.0304293894308651,0.20052408477842
+opp_estimatedDefensiveRating_roll_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0353627245974821,0.20052408477842
+opp_estimatedDefensiveRating_roll_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0365178700533239,0.20052408477842
+opp_estimatedDefensiveRating_std_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.008120041188039,0.20052408477842
+opp_estimatedDefensiveRating_momentum_5_vs_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0040436229632066,0.20052408477842
+opp_estimatedDefensiveRating_momentum_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0124920939172156,0.20052408477842
+opp_estimatedDefensiveRating_z_5_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0107035061758755,0.20052408477842
+opp_estimatedDefensiveRating_z_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0122188530415244,0.20052408477842
+opp_fieldGoalsPercentage_allowed_roll_5,drop,redundant first-pass feature family based on EDA redundancy review,-0.0027902578613307,0.20052408477842
+opp_fieldGoalsPercentage_allowed_roll_10,drop,redundant first-pass feature family based on EDA redundancy review,-0.0043047302417286,0.20052408477842
+opp_fieldGoalsPercentage_allowed_roll_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.0085111343341843,0.20052408477842
+opp_fieldGoalsPercentage_allowed_std_30,drop,redundant first-pass feature family based on EDA redundancy review,-0.006755346226799,0.20052408477842
+opp_fieldGoalsPercentage_allowed_momentum_5_vs_10,drop,redundant first-pass feature family based on EDA redundancy review,0.0012252456317279,0.20052408477842
+opp_fieldGoalsPercentage_allowed_momentum_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0035039630896439,0.20052408477842
+opp_fieldGoalsPercentage_allowed_z_5_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0028635146941091,0.20052408477842
+opp_fieldGoalsPercentage_allowed_z_10_vs_30,drop,redundant first-pass feature family based on EDA redundancy review,0.0036319447245277,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0223872143768837,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.026992079546061,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0286677865218505,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_std_30,eligible,eligible for at least one first-pass feature set,-0.0029073955787718,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0026916678279528,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0100408699721297,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0079167244513806,0.20052408477842
+opp_effectiveFieldGoalPercentage_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0095248723358272,0.20052408477842
+opp_trueShootingPercentage_allowed_roll_5,eligible,eligible for at least one first-pass feature set,-0.0055770872662918,0.20052408477842
+opp_trueShootingPercentage_allowed_roll_10,eligible,eligible for at least one first-pass feature set,-0.0069258197284485,0.20052408477842
+opp_trueShootingPercentage_allowed_roll_30,eligible,eligible for at least one first-pass feature set,-0.0114619388279443,0.20052408477842
+opp_trueShootingPercentage_allowed_std_30,eligible,eligible for at least one first-pass feature set,-0.0074701549250632,0.20052408477842
+opp_trueShootingPercentage_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,7.68539385352393e-05,0.20052408477842
+opp_trueShootingPercentage_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0029952299268897,0.20052408477842
+opp_trueShootingPercentage_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0014426320732263,0.20052408477842
+opp_trueShootingPercentage_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0029912882981332,0.20052408477842
+opp_rebounds_allowed_roll_5,eligible,eligible for at least one first-pass feature set,-0.0057143513443868,0.20052408477842
+opp_rebounds_allowed_roll_10,eligible,eligible for at least one first-pass feature set,-0.0074587883341151,0.20052408477842
+opp_rebounds_allowed_roll_30,eligible,eligible for at least one first-pass feature set,-0.0057321834746154,0.20052408477842
+opp_rebounds_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0061912418401164,0.20052408477842
+opp_rebounds_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0004454886701907,0.20052408477842
+opp_rebounds_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0048457387704366,0.20052408477842
+opp_rebounds_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0027797264857885,0.20052408477842
+opp_rebounds_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0051714239015461,0.20052408477842
+opp_assists_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0094226975219794,0.20052408477842
+opp_assists_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0111837931150944,0.20052408477842
+opp_assists_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0108248293342615,0.20052408477842
+opp_assists_allowed_std_30,eligible,eligible for at least one first-pass feature set,-0.0097049901900684,0.20052408477842
+opp_assists_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.000179605526615,0.20052408477842
+opp_assists_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0037764007199031,0.20052408477842
+opp_assists_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0022972264562723,0.20052408477842
+opp_assists_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.003787267561321,0.20052408477842
+opp_steals_roll_5,eligible,eligible for at least one first-pass feature set,-0.0056616684113044,0.20052408477842
+opp_steals_roll_10,eligible,eligible for at least one first-pass feature set,-0.0057068330413,0.20052408477842
+opp_steals_roll_30,eligible,eligible for at least one first-pass feature set,-0.0047522505258907,0.20052408477842
+opp_steals_std_30,eligible,eligible for at least one first-pass feature set,0.0010487600346987,0.20052408477842
+opp_steals_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0017556167718371,0.20052408477842
+opp_steals_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.003207401694377,0.20052408477842
+opp_steals_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0033925622120497,0.20052408477842
+opp_steals_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0032368449586612,0.20052408477842
+opp_blocks_roll_5,eligible,eligible for at least one first-pass feature set,-0.009123551087106,0.20052408477842
+opp_blocks_roll_10,eligible,eligible for at least one first-pass feature set,-0.0092521719451323,0.20052408477842
+opp_blocks_roll_30,eligible,eligible for at least one first-pass feature set,-0.0058865272119528,0.20052408477842
+opp_blocks_std_30,eligible,eligible for at least one first-pass feature set,-0.0016702421217693,0.20052408477842
+opp_blocks_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0027786652841382,0.20052408477842
+opp_blocks_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0072715610256426,0.20052408477842
+opp_blocks_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0072184516246697,0.20052408477842
+opp_blocks_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0075063214462705,0.20052408477842
+opp_turnovers_forced_roll_5,eligible,eligible for at least one first-pass feature set,0.0129446261993365,0.20052408477842
+opp_turnovers_forced_roll_10,eligible,eligible for at least one first-pass feature set,0.0174420773324618,0.20052408477842
+opp_turnovers_forced_roll_30,eligible,eligible for at least one first-pass feature set,0.0231011076697843,0.20052408477842
+opp_turnovers_forced_std_30,eligible,eligible for at least one first-pass feature set,0.0195995158132694,0.20052408477842
+opp_turnovers_forced_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0018679361770262,0.20052408477842
+opp_turnovers_forced_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0004323064631066,0.20052408477842
+opp_turnovers_forced_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0017371708319779,0.20052408477842
+opp_turnovers_forced_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0007132454739428,0.20052408477842
+opp_fp_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0429021879375236,0.2032215799614643
+opp_fp_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0468104678146128,0.2032215799614643
+opp_fp_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0471209149996496,0.2030520231213873
+opp_fp_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0058315634236237,0.2056030828516377
+opp_fp_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.004913305259611,0.2032215799614643
+opp_fp_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0131974315576186,0.2032215799614643
+opp_fp_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0116467179593708,0.2056030828516377
+opp_fp_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0128461493358705,0.2056030828516377
+opp_pointsInThePaint_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0329764882888894,0.20052408477842
+opp_pointsInThePaint_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0348248297720374,0.20052408477842
+opp_pointsInThePaint_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0392733024874934,0.20052408477842
+opp_pointsInThePaint_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0196046734845186,0.20052408477842
+opp_pointsInThePaint_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0077300108712613,0.20052408477842
+opp_pointsInThePaint_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0059861729460671,0.20052408477842
+opp_pointsInThePaint_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0099190080650118,0.20052408477842
+opp_pointsInThePaint_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0063694199248433,0.20052408477842
+opp_pointsFastBreak_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0166344364413934,0.20052408477842
+opp_pointsFastBreak_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0226534096906014,0.20052408477842
+opp_pointsFastBreak_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0259157417509942,0.20052408477842
+opp_pointsFastBreak_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0156702474656422,0.20052408477842
+opp_pointsFastBreak_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0016567163803712,0.20052408477842
+opp_pointsFastBreak_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0047415960005679,0.20052408477842
+opp_pointsFastBreak_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0011158646188827,0.20052408477842
+opp_pointsFastBreak_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0036582082710313,0.20052408477842
+opp_pointsSecondChance_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0175107498092409,0.20052408477842
+opp_pointsSecondChance_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.022442867717175,0.20052408477842
+opp_pointsSecondChance_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0316090680336924,0.20052408477842
+opp_pointsSecondChance_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0106750992562279,0.20052408477842
+opp_pointsSecondChance_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0011661755875182,0.20052408477842
+opp_pointsSecondChance_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.00161601536281,0.20052408477842
+opp_pointsSecondChance_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0015609064789286,0.20052408477842
+opp_pointsSecondChance_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0013139304471852,0.20052408477842
+opp_pointsFromTurnovers_allowed_roll_5,eligible,eligible for at least one first-pass feature set,0.0182318856076115,0.20052408477842
+opp_pointsFromTurnovers_allowed_roll_10,eligible,eligible for at least one first-pass feature set,0.0235836410579407,0.20052408477842
+opp_pointsFromTurnovers_allowed_roll_30,eligible,eligible for at least one first-pass feature set,0.0270436134563959,0.20052408477842
+opp_pointsFromTurnovers_allowed_std_30,eligible,eligible for at least one first-pass feature set,0.0185895973998845,0.20052408477842
+opp_pointsFromTurnovers_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0010393835372875,0.20052408477842
+opp_pointsFromTurnovers_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0048109743799441,0.20052408477842
+opp_pointsFromTurnovers_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0021100441718007,0.20052408477842
+opp_pointsFromTurnovers_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0047929737947536,0.20052408477842
+opp_pos_fp_allowed_roll_3,eligible,eligible for at least one first-pass feature set,-0.039260242670504,0.2030520231213873
+opp_pos_fp_allowed_roll_5,eligible,eligible for at least one first-pass feature set,-0.0406595290952406,0.2030520231213873
+opp_pos_fp_allowed_roll_10,eligible,eligible for at least one first-pass feature set,-0.0428075027312801,0.2030520231213873
+opp_pos_fp_allowed_roll_30,eligible,eligible for at least one first-pass feature set,-0.0452196970336293,0.2030520231213873
+opp_pos_fp_allowed_std_30,eligible,eligible for at least one first-pass feature set,-0.0224664078731439,0.2055183044315992
+opp_pos_fp_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0003288135938441,0.2030520231213873
+opp_pos_fp_allowed_momentum_3_vs_10,eligible,eligible for at least one first-pass feature set,-0.0018083927154192,0.2030520231213873
+opp_pos_fp_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0025855310237662,0.2030520231213873
+opp_pos_fp_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0012597433414939,0.2055183044315992
+opp_pos_fp_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0021375958998749,0.2055183044315992
+opp_pos_fp_allowed_per_player_roll_3,eligible,eligible for at least one first-pass feature set,0.0309795181571,0.2030520231213873
+opp_pos_fp_allowed_per_player_roll_5,eligible,eligible for at least one first-pass feature set,0.0396246644510168,0.2030520231213873
+opp_pos_fp_allowed_per_player_roll_10,eligible,eligible for at least one first-pass feature set,0.0484812372845578,0.2030520231213873
+opp_pos_fp_allowed_per_player_roll_30,eligible,eligible for at least one first-pass feature set,0.0629886466474835,0.2030520231213873
+opp_pos_fp_allowed_per_player_std_30,eligible,eligible for at least one first-pass feature set,0.0511170704382566,0.2055183044315992
+opp_pos_fp_allowed_per_player_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,0.0029842082831463,0.2030520231213873
+opp_pos_fp_allowed_per_player_momentum_3_vs_10,eligible,eligible for at least one first-pass feature set,0.0005805018788015,0.2030520231213873
+opp_pos_fp_allowed_per_player_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0022328391276142,0.2030520231213873
+opp_pos_fp_allowed_per_player_z_5_vs_30,eligible,eligible for at least one first-pass feature set,0.0041610864571805,0.2055183044315992
+opp_pos_fp_allowed_per_player_z_10_vs_30,eligible,eligible for at least one first-pass feature set,0.0022734182419906,0.2055183044315992
+opp_pos_minutes_allowed_roll_5,eligible,eligible for at least one first-pass feature set,-0.0561944430666593,0.2030520231213873
+opp_pos_minutes_allowed_roll_10,eligible,eligible for at least one first-pass feature set,-0.0567387595454203,0.2030520231213873
+opp_pos_minutes_allowed_roll_30,eligible,eligible for at least one first-pass feature set,-0.0575496626786951,0.2030520231213873
+opp_pos_minutes_allowed_std_30,eligible,eligible for at least one first-pass feature set,-0.0371025657667958,0.2055183044315992
+opp_pos_minutes_allowed_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0036229579590043,0.2030520231213873
+opp_pos_minutes_allowed_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0010852558790601,0.2030520231213873
+opp_pos_minutes_allowed_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0039207559924021,0.2055491329479769
+opp_pos_minutes_allowed_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0013018409022508,0.2055491329479769
+opp_pos_player_count_roll_5,eligible,eligible for at least one first-pass feature set,-0.0533166699652832,0.2030520231213873
+opp_pos_player_count_roll_10,eligible,eligible for at least one first-pass feature set,-0.0546179657920675,0.2030520231213873
+opp_pos_player_count_roll_30,eligible,eligible for at least one first-pass feature set,-0.0559780435074962,0.2030520231213873
+opp_pos_player_count_std_30,eligible,eligible for at least one first-pass feature set,-0.0447537430623503,0.2055183044315992
+opp_pos_player_count_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,-0.0040347774809836,0.2030520231213873
+opp_pos_player_count_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0028423486037265,0.2030520231213873
+opp_pos_player_count_z_5_vs_30,eligible,eligible for at least one first-pass feature set,-0.0053289982910926,0.2067591522157996
+opp_pos_player_count_z_10_vs_30,eligible,eligible for at least one first-pass feature set,-0.0031252511455493,0.2067591522157996
+opp_pos_starter_count_roll_5,eligible,eligible for at least one first-pass feature set,-0.061671376961906,0.2030520231213873
+opp_pos_starter_count_roll_10,eligible,eligible for at least one first-pass feature set,-0.061671376961906,0.2030520231213873
+opp_pos_starter_count_roll_30,eligible,eligible for at least one first-pass feature set,-0.061671376961906,0.2030520231213873
+opp_pos_starter_count_std_30,eligible,eligible for at least one first-pass feature set,,0.2055183044315992
+opp_pos_starter_count_momentum_5_vs_10,eligible,eligible for at least one first-pass feature set,,0.2030520231213873
+opp_pos_starter_count_momentum_10_vs_30,eligible,eligible for at least one first-pass feature set,,0.2030520231213873
+opp_pos_starter_count_z_5_vs_30,eligible,eligible for at least one first-pass feature set,,1.0
+opp_pos_starter_count_z_10_vs_30,eligible,eligible for at least one first-pass feature set,,1.0
+league_pos_fp_allowed_per_player_roll_3,eligible,eligible for at least one first-pass feature set,0.0282156790362127,0.2006088631984585
+pos_opp_difficulty_roll_3,eligible,eligible for at least one first-pass feature set,0.0019121071996527,0.2030520231213873
+pos_opp_difficulty_ratio_3,eligible,eligible for at least one first-pass feature set,0.0052023203525809,0.2030520231213873
+league_pos_fp_allowed_per_player_roll_5,eligible,eligible for at least one first-pass feature set,0.0262975723744272,0.2006088631984585
+pos_opp_difficulty_roll_5,eligible,eligible for at least one first-pass feature set,0.0103383905263987,0.2030520231213873
+pos_opp_difficulty_ratio_5,eligible,eligible for at least one first-pass feature set,0.0123139544513781,0.2030520231213873
+league_pos_fp_allowed_per_player_roll_10,eligible,eligible for at least one first-pass feature set,0.0299769577816386,0.2006088631984585
+pos_opp_difficulty_roll_10,eligible,eligible for at least one first-pass feature set,0.0163646066631699,0.2030520231213873
+pos_opp_difficulty_ratio_10,eligible,eligible for at least one first-pass feature set,0.0171291335467275,0.2030520231213873
+league_pos_fp_allowed_per_player_roll_30,eligible,eligible for at least one first-pass feature set,0.044328438949547,0.2006088631984585
+pos_opp_difficulty_roll_30,eligible,eligible for at least one first-pass feature set,0.0240383930883057,0.2030520231213873
+pos_opp_difficulty_ratio_30,eligible,eligible for at least one first-pass feature set,0.0243143069464356,0.2030520231213873
