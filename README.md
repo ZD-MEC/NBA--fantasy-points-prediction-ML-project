@@ -61,13 +61,15 @@ R2          = 0.5440
 
 ## How To Run
 
-Create an environment from `requirements.txt`, then run the notebook. It downloads the Kaggle dataset automatically:
+Recommended setup: create an environment from `requirements.txt`, then run the notebook. The first notebook cell also checks for missing packages and installs them into the active Python environment if needed. The notebook downloads the Kaggle dataset automatically:
+
+Use Python 3.10 or newer. Python 3.11 or 3.12 is recommended, but the notebook will continue on newer versions when the required packages are available.
 
 ```text
 runs/final/notebooks/NBA_ML_project.ipynb
 ```
 
-All final outputs are written under `runs/final/reports/`.
+All final outputs are written under `reports/` inside this final project repo. If the notebook is run from the original parent project layout, outputs still resolve to `runs/final/reports/`.
 
 ## GitHub Notes
 
