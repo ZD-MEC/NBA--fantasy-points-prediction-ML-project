@@ -1,8 +1,8 @@
 # Detailed NBA ML Project Report
 
-This report explains the final notebook in depth for project partners. It covers what each section does, why it exists, how it works, important parameters, outputs, results, and every function defined in the notebook.
+This report explains the final notebook in depth.
+It covers what each section does, why it exists, how it works, important parameters, outputs, results, and every function defined in the notebook.
 
-Source notebook: `C:\Users\zivdi\fantasy_basketball_fp_starter\NBA_ML_PROJ_2\runs\final\notebooks\NBA_ML_project.ipynb`
 
 ## Executive Summary
 
@@ -725,10 +725,3 @@ The following table documents every function defined in the notebook. `Receives`
 4. PCA is useful mainly when combined with the lineup-aware starter setup.
 5. Isolation Forest anomaly features gave the best validation row, but the gain over starter PCA was small.
 6. CatBoost on the clean lineup-aware starter feature set was selected for the controlled one-time test evaluation.
-
-## Cleanup Notes Before Submission
-
-- The notebook has historical numbering such as `17b`; execution order is correct, but labels can be cleaned.
-- The cross-validation summary filename still says `step_15b_time_cross_validation.md` even though the notebook section is now Section 12.
-- `profile_extended_driver_10` is technically correct but could be renamed to `profile_extended_stats_roll10_interpretability` for clarity.
-- Do not upload Kaggle cache, processed modeling tables, or large prediction dumps to GitHub; the notebook recreates them.
